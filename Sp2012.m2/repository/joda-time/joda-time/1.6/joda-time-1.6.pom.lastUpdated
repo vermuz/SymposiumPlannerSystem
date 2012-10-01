@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:11:37 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883091873
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883097621
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact joda-time\:joda-time\:pom\:1.6 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/joda-time/joda-time/1.6/joda-time-1.6.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883092547
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883092428
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883091756
+http\://mirrors.ibiblio.org/.lastUpdated=1328883092671

@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:12:53 AST 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883171603
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883173534
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.apache.cxf\:cxf-rt-databinding-jaxb\:pom\:2.3.1 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/2.3.1/cxf-rt-databinding-jaxb-2.3.1.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883172591
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883172478
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1328883173971
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883171327
+http\://mirrors.ibiblio.org/.lastUpdated=1328883172711

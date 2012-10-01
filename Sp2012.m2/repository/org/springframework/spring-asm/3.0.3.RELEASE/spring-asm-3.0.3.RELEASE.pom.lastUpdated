@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:10:36 AST 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883033582
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883035502
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.springframework\:spring-asm\:pom\:3.0.3.RELEASE from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/springframework/spring-asm/3.0.3.RELEASE/spring-asm-3.0.3.RELEASE.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883034397
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883034257
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1328883036114
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883033463
+http\://mirrors.ibiblio.org/.lastUpdated=1328883034540

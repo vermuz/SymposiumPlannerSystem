@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:17:09 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883426561
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883429341
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact com.thoughtworks.xstream\:xstream-parent\:pom\:1.2.1 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/com/thoughtworks/xstream/xstream-parent/1.2.1/xstream-parent-1.2.1.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883427167
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883427047
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883426439
+http\://mirrors.ibiblio.org/.lastUpdated=1328883427296

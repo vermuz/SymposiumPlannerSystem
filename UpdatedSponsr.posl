@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Facts Regarding Partner Organizations for IJCAI-2011     			                                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+partnerOrganization(RuleML-2012, "http://www.oasis-open.org/").
+partnerOrganization(RuleML-2012, "http://www.w3c.org/").
+partnerOrganization(RuleML-2012, ,"http://www.eccai.org/").).
+partnerOrganization(RuleML-2012, "http://www.aaai.org/").
+partnerOrganization(RuleML-2012, "http://www.ep-ts.com/").
+partnerOrganization(RuleML-2012, ,"http://www.omg.org/").).
+partnerOrganization(RuleML-2012, "http://www.csw.inf.fu-berlin.de/debs2012/").
+partnerOrganization(RuleML-2012, "http://www.athant.com/").
+
+organizationName("http://www.oasis-open.org/",oasis).
+organizationName"http://www.w3c.org/",w3c).
+organizationName("http://www.eccai.org/",eccai).
+organizationName("http://www.aaai.org/",aaai).
+organizationName("http://www.ep-ts.com/",epts).
+organizationName"http://www.omg.org/",omg).
+organizationName("http://www.csw.inf.fu-berlin.de/debs2012/",debs).
+organizationName("http://www.athant.com/",athanT).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Rules Regarding Partner Organizations      							                                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+meetingPartner(?Meeting, ?PartnerName) :- partnerOrganization(?Meeting, ?PartnerURI),
+                                          organizationName(?PartnerURI,?PartnerName).
+										  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Facts Media Partners             							                                                                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mediaPartner(RuleML-2012,"http://www.sigart.org/").
+mediaPartner(RuleML-2012,"http://www.sigweb.org/").
+mediaPartner(RuleML-2012,"http://www.springer.com/computer/lncs?SGWID=0-164-6-73659-0").
+mediaPartner(RuleML-2012,"http://www.risingmedia.com/").
+mediaPartner(RuleML-2012,"http://choven.ca/").
+
+mediaPartnerName(sigart,"http://www.sigart.org/").
+mediaPartnerName(sigweb,"http://www.sigweb.org/").
+mediaPartnerName(choven,"http://choven.ca/").
+mediaPartnerName(springer_LNCS,"http://www.springer.com/computer/lncs?SGWID=0-164-6-73659-0").
+mediaPartnerName(rising_media,"http://www.risingmedia.com/").
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Rules Media Partners             							                                                                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mediaPartners(?Meeting, ?PartnerName) :- mediaPartner(?Meeting, ?PartnerURI),
+                                         mediaPartnerName(?PartnerURI,?PartnerName). 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Media Partners by Services              	 						                                                                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%									
+mediaPartnerByServices(?Partner , ?Services, ?Contact, CategoryofKnowledge) :- mediaPartnerByService(?Partner , ?Service),
+                                                                               mediaPartnerContact(?Partner,?Contact),
+												                               mediaPartnerCategoryofKnowledge(?Partner,?CategoryofKnowledge).
+                                                    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Facts Media Partner Services
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mediaPartnerByService(sigart, "conferences").
+mediaPartnerByService(sigweb , "knowledge management").
+mediaPartnerByService(springer , "publishing").
+mediaPartnerByService(risingmedia , "conferences").
+mediaPartnerByService(choven, "publishing").			
+											   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Facts Media Partner Contact
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mediaPartnerContact(sigart,"frawley@acm.org").
+mediaPartnerContact(sigweb ,"yyeliz@metu.edu.tr").
+mediaPartnerContact(springer , "springerlink@springer.com").
+mediaPartnerContact(risingmedia ,"info@risingmedia.com").
+mediaPartnerContact(choven,"contact@choven.ca").
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Facts Media Partner Branch of Knowledge
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mediaPartnerCategoryofKnowledge(choven, "Mathematics").
+mediaPartnerCategoryofKnowledge(sigart, "Artificial Intelligence").
+mediaPartnerCategoryofKnowledge(sigweb, "Document Engineering").
+mediaPartnerCategoryofKnowledge(risingmedia,"Business").
+mediaPartnerCategoryofKnowledge(springer, "Scientific Journals and Books").
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Which Media Partners are a Community
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+mediaPartnerCommunity(?Meeting, ?Community) :- sponsoringCommunity(?Community, ?Interest).
+
+sponsoringCommunity(sigart, "Artificial Intelligence").
+sponsoringCommunity(sigweb, "HyperText").
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% News Feeds
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mediaNewsFeedResources(?Meeting, ?Resource) :- medianewsfeedresourceURI(?Resource, ?ResourceURI).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FACTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+medianewsfeedresourceURI("http://www.w3.org/","http://lists.w3.org/Archives/Public/semantic-web/2012Jan/0159.html").
+medianewsfeedresourceURI("http://www.conferencealerts.com/index","http://www.conferencealerts.com/show-event?id=ca1shasi").
+medianewsfeedresourceURI("http://conference88.com/","http://conference88.com/540/RuleML-2012---The-6th-International-Symposium-on-Rules:-Research-Based-and-Industry-Focused.htm").
+medianewsfeedresourceURI("http://tm.durusau.net/","http://tm.durusau.net/?p=21005").
+medianewsfeedresourceURI("http://www.facebook.com","http://www.facebook.com/AcademicHelp/posts/173070596104776").
+medianewsfeedresourceURI("http://www.jboss.org/","http://planet.jboss.org/post/ruleml2012_the_6th_international_symposium_on_rules").
+medianewsfeedresourceURI("http://drools.46999.n3.nabble.com/","http://drools.46999.n3.nabble.com/rules-users-2nd-CFP-6th-Int-Workshop-on-Event-Driven-Business-Process-Management-edBPM12-td4004503.html").

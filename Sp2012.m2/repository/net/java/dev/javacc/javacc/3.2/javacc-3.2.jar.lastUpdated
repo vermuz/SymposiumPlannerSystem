@@ -1,0 +1,12 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:20:25 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883560416
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact net.java.dev.javacc\:javacc\:jar\:3.2 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/net/java/dev/javacc/javacc/3.2/javacc-3.2.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883616161
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586249
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520207
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625203

@@ -1,0 +1,9 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:14:13 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883252633
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883253061
+http\://repository.codehaus.org/.lastUpdated=1328883253361
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883252517
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.mule.modules\:mule-module-spring-security\:pom\:3.1.2 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/mule/modules/mule-module-spring-security/3.1.2/mule-module-spring-security-3.1.2.pom. Error code 403, Forbidden
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.core.feature"
+      label="%featureName"
+      version="1.1.0.r37x201109091012"
+      provider-name="%providerName"
+      plugin="org.eclipse.wb.core"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="WindowBuilderCore Discovery" url="http://download.eclipse.org/windowbuilder/WB/integration/3.7"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.wb.jdt.fragment"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.os"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.runtime"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.runtime.lib"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"/>
+
+   <plugin
+         id="org.eclipse.wb.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.core.lib"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"/>
+
+   <plugin
+         id="org.eclipse.wb.os.linux"
+         os="linux"
+         ws="gtk"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.os.macosx"
+         os="macosx"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.os.win32"
+         os="win32"
+         ws="win32"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.core.databinding"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.r37x201109091012"
+         unpack="false"/>
+
+</feature>

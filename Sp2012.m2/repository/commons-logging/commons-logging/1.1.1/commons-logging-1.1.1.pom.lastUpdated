@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:14:44 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883280902
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883284216
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact commons-logging\:commons-logging\:pom\:1.1.1 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883281444
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883281326
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883280785
+http\://mirrors.ibiblio.org/.lastUpdated=1328883281563

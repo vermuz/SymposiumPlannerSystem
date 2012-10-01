@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:12:09 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883127697
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883129775
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact tomcat\:tomcat-apr\:pom\:5.5.23 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/tomcat/tomcat-apr/5.5.23/tomcat-apr-5.5.23.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883128239
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883128117
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883127580
+http\://mirrors.ibiblio.org/.lastUpdated=1328883128355

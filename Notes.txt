@@ -1,0 +1,73 @@
+GET START WITH SYMPOSIUMPLANNER 2011
+====================================
+This file describes the basics of how to start with SymposiumPlanner 2011 (SP-2011). 
+
+
+
+WHAT IS IT?
+===========
+
+  SymposiumPlanner 2011 is the latest in a series of Rule Responder instantiations for 
+  the Questions&Answers sections of the official websites of the RuleML Symposia. 
+  SymposiumPlanner supports committee members via personal agents based on 
+  member-encoded rule knowledge and invoked by an organizational agent which selects 
+  them using a responsibility assignment matrix.
+
+
+SYSTEM REQUIREMENT
+==================
+
+  JDK:
+    1.5 or above.
+    
+  Apache Tomcat:
+  
+    5.5 or above.
+    
+  Operating System:
+    Tested on Windows XP, 7 and Linux.
+    
+INSTALLATION SYMPOSIUMPLANNER 2011
+==================================
+
+  The source code of SYMPOSIUMPLANNER 2011 is managed by Subversion of SourceForge, 
+  the repository of the project can be checked out through SVN with the 
+  following instruction set:
+
+  svn co https://sps2011.svn.sourceforge.net/svnroot/sps2011 sps2011
+  
+  For complete documentation, see https://sourceforge.net/projects/sps2011/files/
+  SymposiumPlanner%202011%20Installation%20Guide.doc/download
+  
+  Besides, two distributions which need a bit configuration are provided.  
+
+
+
+USER CLIENT OF SYMPOSIUMPLANNER 2011
+====================================
+
+   The client facilitates users to issue queries to SYMPOSIUMPLANNER 2011 in two ways: using 
+   controlled English or selecting query templates.
+   
+   For intallation, unzip the archive of the client (https://sourceforge.net/projects/sps2011/
+   files/SymposiumPlanner2011Client.war/download) to %TOMCAT_HOME%/webapps and 
+   make sure the address of SYMPOSIUMPLANNDER server is correct.
+   
+   For development, unzip the sourcecode of the client (http://sourceforge.net/projects/
+   sps2011/files/User_Client%20%28Source%20Distribution%29.zip/download) and import it 
+   into Eclipse IDE for Java EE Developers or MyEclipse as a Web Project.
+   
+   
+
+OOJREW AGENT TEST TOOL
+=====================
+
+   Please note that this is just an informal test tool to OOjREW Agent. With this tool, 
+   users don't need to start Mule server to test OOjREW Agent. This tool just acts as a 
+   query sender, and will not get the response. Users have to check the logs of OOjREW Agents 
+   to find whether it runs normally or not. 
+
+   Please deploy it to your web application server and access it with the "Internet Explore" 
+   browser (It currently doesn't work with Firefox now). 
+   You will get the execution log of OOjDREW agent under the directory "%TOMCAT/logs/stdout_XXX.log%". 
+Source: README.txt, updated 2011-12-07

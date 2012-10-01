@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:06:11 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328882768092
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328882771553
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact jmock\:jmock\:pom\:1.0.1 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/jmock/jmock/1.0.1/jmock-1.0.1.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328882768879
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328882768569
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328882767756
+http\://mirrors.ibiblio.org/.lastUpdated=1328882769008

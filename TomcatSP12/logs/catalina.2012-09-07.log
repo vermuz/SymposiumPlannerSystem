@@ -1,0 +1,660 @@
+7-Sep-2012 5:29:35 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+7-Sep-2012 5:29:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+7-Sep-2012 5:29:38 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:29:38 PM org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:29:38 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4046 ms
+7-Sep-2012 5:29:38 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+7-Sep-2012 5:29:38 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+7-Sep-2012 5:29:38 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+7-Sep-2012 5:29:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+7-Sep-2012 5:29:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor probe.xml
+7-Sep-2012 5:29:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+7-Sep-2012 5:29:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012DocSymposiumChair
+7-Sep-2012 5:29:44 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012DocSymposiumChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012GeneralChair
+7-Sep-2012 5:29:44 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012GeneralChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalChair
+7-Sep-2012 5:29:44 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalSteerCommitChair
+7-Sep-2012 5:29:45 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalSteerCommitChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LiaisonChair
+7-Sep-2012 5:29:45 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LiaisonChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LocalChair
+7-Sep-2012 5:29:45 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LocalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012MetaAndSocialChair
+7-Sep-2012 5:29:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012MetaAndSocialChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PanelChair
+7-Sep-2012 5:29:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PanelChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012ProgramChair
+7-Sep-2012 5:29:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012ProgramChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PublicityChair
+7-Sep-2012 5:29:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PublicityChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012SteeringChair
+7-Sep-2012 5:29:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012SteeringChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+7-Sep-2012 5:29:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+7-Sep-2012 5:29:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-ECAI
+7-Sep-2012 5:29:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-STRUCT
+7-Sep-2012 5:29:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012AdvisoryBoard
+7-Sep-2012 5:29:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012AdvisoryBoard\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CEI
+7-Sep-2012 5:29:48 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CEI\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CoChairs
+7-Sep-2012 5:29:48 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CoChairs\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012DefeasibleLogic
+7-Sep-2012 5:29:48 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012DefeasibleLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012MAS
+7-Sep-2012 5:29:48 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012MAS\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ModalLogic
+7-Sep-2012 5:29:48 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ModalLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012PSOA
+7-Sep-2012 5:29:49 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012PSOA\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ReactionRules
+7-Sep-2012 5:29:49 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ReactionRules\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012TGAgent
+7-Sep-2012 5:29:49 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012TGAgent\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012UnCertReason
+7-Sep-2012 5:29:49 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012UnCertReason\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:29:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory SymposiumPlannerSystem
+7-Sep-2012 5:29:50 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:29:50 PM org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:29:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11577 ms
+7-Sep-2012 5:31:01 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:31:01 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:31:02 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+7-Sep-2012 5:31:03 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:31:03 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:38:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+7-Sep-2012 5:38:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+7-Sep-2012 5:38:28 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:38:28 PM org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:38:28 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 803 ms
+7-Sep-2012 5:38:28 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+7-Sep-2012 5:38:28 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+7-Sep-2012 5:38:28 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+7-Sep-2012 5:38:28 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+7-Sep-2012 5:38:28 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor probe.xml
+7-Sep-2012 5:38:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+7-Sep-2012 5:38:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012DocSymposiumChair
+7-Sep-2012 5:38:30 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012DocSymposiumChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012GeneralChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012GeneralChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalSteerCommitChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalSteerCommitChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LiaisonChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LiaisonChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LocalChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LocalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012MetaAndSocialChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012MetaAndSocialChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PanelChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PanelChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012ProgramChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012ProgramChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PublicityChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PublicityChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012SteeringChair
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012SteeringChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-ECAI
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-STRUCT
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012AdvisoryBoard
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012AdvisoryBoard\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CEI
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CEI\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CoChairs
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CoChairs\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012DefeasibleLogic
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012DefeasibleLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012MAS
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012MAS\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ModalLogic
+7-Sep-2012 5:38:31 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ModalLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012PSOA
+7-Sep-2012 5:38:32 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012PSOA\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ReactionRules
+7-Sep-2012 5:38:32 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ReactionRules\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012TGAgent
+7-Sep-2012 5:38:32 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012TGAgent\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012UnCertReason
+7-Sep-2012 5:38:32 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012UnCertReason\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:38:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory SymposiumPlannerSystem
+7-Sep-2012 5:38:32 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:38:32 PM org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:38:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3602 ms
+7-Sep-2012 5:39:23 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:39:23 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:39:24 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+7-Sep-2012 5:39:24 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:39:24 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:39:42 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+7-Sep-2012 5:39:42 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+7-Sep-2012 5:39:43 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:39:43 PM org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:39:43 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 992 ms
+7-Sep-2012 5:39:43 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+7-Sep-2012 5:39:43 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+7-Sep-2012 5:39:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+7-Sep-2012 5:39:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+7-Sep-2012 5:39:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor probe.xml
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012DocSymposiumChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012DocSymposiumChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012GeneralChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012GeneralChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalSteerCommitChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalSteerCommitChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LiaisonChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LiaisonChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LocalChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LocalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012MetaAndSocialChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012MetaAndSocialChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PanelChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PanelChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012ProgramChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012ProgramChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PublicityChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PublicityChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012SteeringChair
+7-Sep-2012 5:39:46 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012SteeringChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-ECAI
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-STRUCT
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012AdvisoryBoard
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012AdvisoryBoard\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CEI
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CEI\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CoChairs
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CoChairs\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012DefeasibleLogic
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012DefeasibleLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012MAS
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012MAS\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ModalLogic
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ModalLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012PSOA
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012PSOA\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ReactionRules
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ReactionRules\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012TGAgent
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012TGAgent\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012UnCertReason
+7-Sep-2012 5:39:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012UnCertReason\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory SymposiumPlannerSystem
+7-Sep-2012 5:39:47 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:39:47 PM org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:39:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4043 ms
+7-Sep-2012 5:40:21 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:40:21 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 5:40:22 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+7-Sep-2012 5:40:23 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+7-Sep-2012 5:40:23 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:00:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+7-Sep-2012 6:00:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+7-Sep-2012 6:00:40 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:00:40 PM org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:00:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 798 ms
+7-Sep-2012 6:00:40 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+7-Sep-2012 6:00:40 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+7-Sep-2012 6:00:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+7-Sep-2012 6:00:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+7-Sep-2012 6:00:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor probe.xml
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012DocSymposiumChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012DocSymposiumChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012GeneralChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012GeneralChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalSteerCommitChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalSteerCommitChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LiaisonChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LiaisonChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LocalChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LocalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012MetaAndSocialChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012MetaAndSocialChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PanelChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PanelChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012ProgramChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012ProgramChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PublicityChair
+7-Sep-2012 6:00:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PublicityChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012SteeringChair
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012SteeringChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-ECAI
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-STRUCT
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012AdvisoryBoard
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012AdvisoryBoard\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CEI
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CEI\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CoChairs
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CoChairs\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012DefeasibleLogic
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012DefeasibleLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012MAS
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012MAS\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ModalLogic
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ModalLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012PSOA
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012PSOA\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ReactionRules
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ReactionRules\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012TGAgent
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012TGAgent\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012UnCertReason
+7-Sep-2012 6:00:43 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012UnCertReason\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory SymposiumPlannerSystem
+7-Sep-2012 6:00:43 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:00:43 PM org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:00:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3634 ms
+7-Sep-2012 6:02:44 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:02:44 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:02:45 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+7-Sep-2012 6:02:45 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:02:45 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:02:47 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+7-Sep-2012 6:02:47 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+7-Sep-2012 6:02:48 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:02:48 PM org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:02:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 803 ms
+7-Sep-2012 6:02:48 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+7-Sep-2012 6:02:48 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+7-Sep-2012 6:02:48 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+7-Sep-2012 6:02:48 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+7-Sep-2012 6:02:48 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor probe.xml
+7-Sep-2012 6:02:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+7-Sep-2012 6:02:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012DocSymposiumChair
+7-Sep-2012 6:02:50 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012DocSymposiumChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012GeneralChair
+7-Sep-2012 6:02:50 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012GeneralChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012IntlRuleChalSteerCommitChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012IntlRuleChalSteerCommitChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LiaisonChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LiaisonChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012LocalChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012LocalChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012MetaAndSocialChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012MetaAndSocialChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PanelChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PanelChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012ProgramChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012ProgramChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012PublicityChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012PublicityChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ECAI2012SteeringChair
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\ECAI2012SteeringChair\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-ECAI
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory RuleML-2012-STRUCT
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012AdvisoryBoard
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012AdvisoryBoard\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CEI
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CEI\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012CoChairs
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012CoChairs\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012DefeasibleLogic
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012DefeasibleLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012MAS
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012MAS\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ModalLogic
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ModalLogic\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012PSOA
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012PSOA\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012ReactionRules
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012ReactionRules\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012TGAgent
+7-Sep-2012 6:02:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012TGAgent\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory STRUCT2012UnCertReason
+7-Sep-2012 6:02:52 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(C:\SymposiumPlanner2012\TomcatSP12\webapps\STRUCT2012UnCertReason\WEB-INF\lib\j2ee-1.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+7-Sep-2012 6:02:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory SymposiumPlannerSystem
+7-Sep-2012 6:02:52 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:02:52 PM org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:02:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3789 ms
+7-Sep-2012 6:03:36 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:03:36 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+7-Sep-2012 6:03:37 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+7-Sep-2012 6:03:38 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+7-Sep-2012 6:03:38 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009

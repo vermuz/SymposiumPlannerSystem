@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:14:27 AST 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883264791
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883266634
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.springframework.security\:spring-security-core\:pom\:3.0.3.RELEASE from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/springframework/security/spring-security-core/3.0.3.RELEASE/spring-security-core-3.0.3.RELEASE.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883265439
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883265214
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1328883267034
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883264677
+http\://mirrors.ibiblio.org/.lastUpdated=1328883265603

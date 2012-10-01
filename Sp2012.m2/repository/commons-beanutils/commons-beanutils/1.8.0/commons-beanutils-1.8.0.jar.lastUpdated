@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 24 09:34:36 ADT 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883560444
+http\://www.mvnsearch.org/maven2/.lastUpdated=1335270876895
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact commons-beanutils\:commons-beanutils\:jar\:1.8.0 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883616230
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586281
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520236
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625229

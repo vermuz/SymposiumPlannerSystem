@@ -1,0 +1,309 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<signatures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<signature agent="SymposiumPlannerSystem">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">
+					decide whether can submit a paper
+				</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>submission</Ind>
+		</oid>
+		<Expr>
+			<Fun mode="+" meta="User's Contact Informaion">contact</Fun>
+			<Var mode="+" meta="User's FirstName" default="Mark">
+				FirstName
+			</Var>
+			<Var mode="+" meta="User's LastName" default="JBoss">
+				LastName
+			</Var>
+			<Var mode="+" meta="User's Country" default="USA">
+				Country
+			</Var>
+			<Var mode="+" meta="User's Email"
+				default="markDOTjbossATgmailDOTcom">
+				Email
+			</Var>
+		</Expr>
+		<Var mode="+" type="string" meta="Paper Title"
+			default="Rules and Automated Reasoning">
+			Title
+		</Var>
+		<Var mode="+" type="string" meta="Paper Type"
+			default="Full Paper" candiates="Demo Paper;Full Paper">
+			SubmissionCategory
+		</Var>
+		<Var mode="+" type="string"
+			meta="Paper Keywords, please serparated by semicolon."
+			default="rules; reasoning">
+			Keywords
+		</Var>
+	</signature>
+
+	<signature agent="SymposiumPlannerSystem">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">
+					Request personal contact information for a certain
+					Topic and Request regarding RuleML-2011
+				</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getContact</Ind>
+		</oid>
+		<Var mode="+" meta="Topic"
+			default="RuleML 2011@IJCAI:ruleml2011ATijcai_GeneralChair"
+			candiates="RuleML 2011@IJCAI General Chair(s):ruleml2011ATijcai_GeneralChair;RuleML 2011@IJCAI Publicity Chair(s):ruleml2011ATijcai_PublicityChair;">
+			Topic
+		</Var>
+		
+		<Var mode="-" meta="The Contact Information"
+			default="Contact">
+			Contact
+		</Var>
+	</signature>
+
+	<signature agent="RuleML-2011-IJCAI">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">
+					Request personal contact information for a certain
+					Topic and Request regarding RuleML-2011@IJCAI
+				</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getContact</Ind>
+		</oid>
+		<Var mode="+" meta="Topic"
+			default="RuleML 2011@IJCAI:ruleml2011ATijcai_GeneralChair"
+			candiates="RuleML 2011@IJCAI General Chair(s):ruleml2011ATijcai_GeneralChair;RuleML 2011@IJCAI Program Chair(s):ruleml2011ATijcai_ProgramChair;RuleML 2011@IJCAI Web Chair(s):ruleml2011ATijcai_WebChair;RuleML 2011@IJCAI Publicity Chair(s):ruleml2011ATijcai_PublicityChair;">
+			Topic
+		</Var>
+		
+		<Var mode="-" meta="The Contact Information"
+			default="Contact">
+			Contact
+		</Var>
+	</signature>
+
+	<signature agent="RuleML-2011-BRF">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">
+					Request personal contact information for a certain
+					Topic and Request regarding RuleML-2011@BRF
+				</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getContact</Ind>
+		</oid>
+		<Var mode="+" meta="Topic"
+			default="RuleML 2011@BRF:ruleml2011ATbrf_GeneralChair"
+			candiates="RuleML 2011@BRF General Chair(s):ruleml2011ATbrf_GeneralChair;RuleML 2011@BRF Program Chair(s):ruleml2011ATbrf_ProgramChair;RuleML 2011@BRF Web Chair(s):ruleml2011ATbrf_WebChair;RuleML 2011@BRF Publicity Chair(s):ruleml2011ATbrf_PublicityChair;">
+			Topic
+		</Var>
+		<Var mode="-" meta="The Contact Information"
+			default="Contact">
+			Contact
+		</Var>
+	</signature>
+
+	<signature agent="SymposiumPlannerSystem">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">View Media Partners</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>viewMediaPartners</Ind>
+		</oid>
+		<Var mode="-" meta="Conference Name" default="Meeting">
+			Meeting
+		</Var>
+		<Var mode="-" meta="Conference Partner(s)" default="Partner">
+			Partner
+		</Var>
+	</signature>
+
+<signature agent="RuleML-2011-IJCAI">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">return all accepted track papers</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getTrackPapers</Ind>
+		</oid>
+		<Var mode="+" meta="PaperType" default="accepted">
+			PaperType
+		</Var>
+		<Var mode="-" meta="TrackPapers" default="TrackPapers">
+			TrackPapers
+		</Var>
+	</signature>
+
+<signature agent="RuleML-2011-IJCAI">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">return all accepted full papers</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getFullPapers</Ind>
+		</oid>
+		<Var mode="+" meta="PaperType" default="accepted">
+			PaperType
+		</Var>
+		<Var mode="-" meta="FullPapers" default="FullPapers">
+			FullPapers
+		</Var>
+	</signature>
+<signature agent="RuleML-2011-IJCAI">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">return all accepted short papers</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getShortPapers</Ind>
+		</oid>
+		<Var mode="+" meta="PaperType" default="accepted">
+			PaperType
+		</Var>
+		<Var mode="-" meta="ShortPapers" default="ShortPapers">
+			ShortPapers
+		</Var>
+	</signature>
+<signature agent="RuleML-2011-IJCAI">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">return all accepted poster papers</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getPosterPapers</Ind>
+		</oid>
+		<Var mode="+" meta="PaperType" default="accepted">
+			PaperType
+		</Var>
+		<Var mode="-" meta="PosterPapers" default="PosterPapers">
+			PosterPapers
+		</Var>
+	</signature>
+
+<signature agent="RuleML-2011-IJCAI">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">return all accepted doctoral consortium papers</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getDoctoralConsortiumPapers</Ind>
+		</oid>
+		<Var mode="+" meta="PaperType" default="accepted">
+			PaperType
+		</Var>
+		<Var mode="-" meta="DoctoralConsortiumPapers" default="DoctoralConsortiumPapers">
+			DoctoralConsortiumPapers
+		</Var>
+	</signature>
+
+<signature agent="RuleML-2011-IJCAI">
+		<meta>
+			<Atom>
+				<Rel iri="dc:description" />
+				<Data xsi:type="xs:string">return all authors of a certain accepted paper</Data>
+			</Atom>
+		</meta>
+		<qualification>
+			<Atom>
+				<Rel
+					iri="http://reaction.ruleml.org/ns/signature/Public-Signature" />
+			</Atom>
+		</qualification>
+		<oid>
+			<Ind>getAuthorsOfPaper</Ind>
+		</oid>
+		<Var mode="+" meta="The tile of the paper" default="Rule-based Distributed and Agent Systems">
+			Title
+		</Var>
+		<Var mode="-" meta="Authors" default="Authors">
+			Authors
+		</Var>
+	</signature>
+</signatures>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>tomcat</groupId>
+    <artifactId>tomcat-parent</artifactId>
+    <version>5.5.23</version>
+  </parent>
+
+  <!-- [MPG] POM Created by Mergere Pom Generator (beta). -->
+  <artifactId>tomcat-util</artifactId>
+  <version>5.5.23</version>
+  <packaging>jar</packaging>
+  <dependencies>
+
+    <dependency>
+      <groupId>tomcat</groupId>
+      <artifactId>tomcat-apr</artifactId>
+      <version>5.5.23</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging-api</artifactId>
+    </dependency>
+
+    <!-- [TODO] UnconnectedImport: [Lorg.apache.tomcat.util.buf.StringCache$ByteEntry; -->
+    <!-- [TODO] UnconnectedImport: [Lorg.apache.tomcat.util.buf.StringCache$CharEntry; -->
+    <!-- [TODO] UnconnectedImport: text.plain -->
+    <!-- [TODO] UnconnectedImport: text.html -->
+    <!-- [TODO] UnconnectedImport: image.gif -->
+    <!-- [TODO] UnconnectedImport: image.jpeg -->
+    <!-- [TODO] UnconnectedImport: image.png -->
+    <!-- [TODO] UnconnectedImport: text.richtext -->
+    <!-- [TODO] UnconnectedImport: application.java -->
+    <!-- [TODO] UnconnectedImport: application.zip -->
+    <!-- [TODO] UnconnectedImport: application.oda -->
+    <!-- [TODO] UnconnectedImport: application.pdf -->
+    <!-- [TODO] UnconnectedImport: application.postscript -->
+    <!-- [TODO] UnconnectedImport: application.rtf -->
+    <!-- [TODO] UnconnectedImport: image.ief -->
+    <!-- [TODO] UnconnectedImport: image.tiff -->
+    <!-- [TODO] UnconnectedImport: audio.basic -->
+    <!-- [TODO] UnconnectedImport: video.mpeg -->
+    <!-- [TODO] UnconnectedImport: video.quicktime -->
+    <!-- [TODO] UnconnectedImport: video.mpeg2 -->
+    <!-- [TODO] UnconnectedImport: text.xml -->
+    <!-- [TODO] UnconnectedImport: com.sun.net.ssl.internal.ssl.Provider -->
+    <!-- [TODO] UnconnectedImport: com.sun.net.ssl.TrustManagerFactory -->
+    <!-- [TODO] UnconnectedImport: com.sun.net.ssl.KeyManagerFactory -->
+    <!-- [TODO] UnconnectedImport: com.sun.net.ssl.TrustManager -->
+    <!-- [TODO] UnconnectedImport: com.sun.net.ssl.SSLContext -->
+    <!-- [TODO] UnconnectedImport: com.sun.net.ssl.KeyManager -->
+    <!-- [TODO] UnconnectedImport: COM.claymoresystems.ptls.SSLSocket -->
+    <!-- [TODO] UnconnectedImport: COM.claymoresystems.ptls.SSLServerSocket -->
+    <!-- [TODO] UnconnectedImport: COM.claymoresystems.ptls.SSLContext -->
+    <!-- [TODO] UnconnectedImport: COM.claymoresystems.sslg.SSLPolicyInt -->
+    <!-- [TODO] UnconnectedImport: COM.claymoresystems.ptls.SSLException -->
+    <!-- [TODO] UnconnectedImport: COM.claymoresystems.cert.X509Cert --> 
+  </dependencies>
+</project>

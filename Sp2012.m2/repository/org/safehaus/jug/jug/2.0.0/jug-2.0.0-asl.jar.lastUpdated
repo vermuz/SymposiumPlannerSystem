@@ -1,0 +1,12 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:20:25 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883560446
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.safehaus.jug\:jug\:jar\:asl\:2.0.0 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/safehaus/jug/jug/2.0.0/jug-2.0.0-asl.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883616231
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586282
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520237
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625230

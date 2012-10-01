@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 24 09:34:35 ADT 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883560404
+http\://www.mvnsearch.org/maven2/.lastUpdated=1335270875990
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact activemq\:activemq-core\:jar\:3.2 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/activemq/activemq-core/3.2/activemq-core-3.2.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883616148
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586234
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520174
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625189

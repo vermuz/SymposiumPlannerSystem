@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ruleml="http://ruleml.org/ontology#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xml:base="http://xmlns.com/foaf/0.1/" > 
+	
+	
+	<rdf:Description rdf:ID="Grigoris Antoniou">
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Guido Governatori">
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="forthics">
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="nicta">
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="generalchair">
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="AAAAA">
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="BBBBB">
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="ruleml2012">
+	</rdf:Description>
+	
+  <rdf:Description rdf:about="#generalchair">
+    <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Chair"/>
+    <swc:isRoleAt rdf:resource="#ruleml2012"/>
+    <rdfs:label>General Chairs at RuleML 2012</rdfs:label>
+    <swc:heldBy rdf:resource="#Grigoris Antoniou"/>
+    <swc:heldBy rdf:resource="#Guido Governatori"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#Grigoris Antoniou">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<swrc:affiliation rdf:resource="#forthics"/>
+	<swc:holdsRole rdf:resource="#generalchair"/>
+	<foaf:homepage rdf:resource="http://www.ics.forth.gr/~antoniou"/>
+	<foaf:based_near rdf:resource="http://dbpedia.org/resource/Greece"/>
+	<rdfs:comment>57148</rdfs:comment>
+	<foaf:mbox_sha1sum>f44cd7769f416e96864ac43498b082155196829e</foaf:mbox_sha1sum>
+	<foaf:firstName>Antoniou</foaf:firstName>
+	<foaf:made rdf:resource="#AAAAA"/>
+	<foaf:name>Grigoris Antoniou</foaf:name>
+	<rdfs:label>Grigoris Antoniou</rdfs:label>
+	<foaf:family_name>Grigoris</foaf:family_name>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#Guido Governatori">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<foaf:mbox_sha1sum>180be3a1b2f332599d90b1516758b19228255705</foaf:mbox_sha1sum>
+	<swrc:affiliation rdf:resource="#nicta"/>
+	<swc:holdsRole rdf:resource="#generalchair"/>
+	<foaf:homepage rdf:resource="http://www.governatori.net"/>
+	<rdfs:label>Guido Governatori</rdfs:label>
+    <rdfs:comment>57169</rdfs:comment>
+	<foaf:family_name>Guido</foaf:family_name>
+    <foaf:firstName>Governatori</foaf:firstName>
+	<foaf:made rdf:resource="#BBBBB"/>
+    <foaf:based_near rdf:resource="http://dbpedia.org/resource/Australia"/>
+    <foaf:name>Guido Governatori</foaf:name>
+ </rdf:Description>
+  
+  <rdf:Description rdf:about="#forthics">
+    <foaf:member rdf:resource="#Grigoris Antoniou"/>
+    <foaf:name>FORTH-ICS</foaf:name>
+    <rdfs:label>FORTH-ICS</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#nicta">
+    <foaf:member rdf:resource="#Guido Governatori"/>
+    <foaf:name>NICTA</foaf:name>
+    <rdfs:label>NICTA</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  
+</rdf:RDF>

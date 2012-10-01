@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 24 09:36:01 ADT 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883561378
+http\://www.mvnsearch.org/maven2/.lastUpdated=1335270877119
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact com.sun.xml.bind\:jaxb-impl\:jar\:2.1.5 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/com/sun/xml/bind/jaxb-impl/2.1.5/jaxb-impl-2.1.5.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883616515
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586318
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1335270961075
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520291
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625258

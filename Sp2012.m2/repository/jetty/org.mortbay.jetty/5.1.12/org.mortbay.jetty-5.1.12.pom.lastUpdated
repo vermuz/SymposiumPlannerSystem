@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:16:44 AST 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883401750
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883403296
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact jetty\:org.mortbay.jetty\:pom\:5.1.12 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/jetty/org.mortbay.jetty/5.1.12/org.mortbay.jetty-5.1.12.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883402288
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883402167
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1328883404472
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883401627
+http\://mirrors.ibiblio.org/.lastUpdated=1328883402464

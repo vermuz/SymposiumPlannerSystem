@@ -1,0 +1,12 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:20:25 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883560402
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact classworlds\:classworlds\:jar\:1.1-alpha-2 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883616146
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586233
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520172
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625188

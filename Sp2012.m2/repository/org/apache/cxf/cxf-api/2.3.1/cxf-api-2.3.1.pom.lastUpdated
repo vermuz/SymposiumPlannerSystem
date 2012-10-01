@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:12:24 AST 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883142234
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883143809
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.apache.cxf\:cxf-api\:pom\:2.3.1 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/apache/cxf/cxf-api/2.3.1/cxf-api-2.3.1.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883142796
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883142677
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1328883144333
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883142117
+http\://mirrors.ibiblio.org/.lastUpdated=1328883142942

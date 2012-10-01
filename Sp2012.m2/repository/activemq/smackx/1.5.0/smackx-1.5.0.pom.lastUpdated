@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:07:47 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328882864376
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328882867049
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact activemq\:smackx\:pom\:1.5.0 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/activemq/smackx/1.5.0/smackx-1.5.0.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328882865109
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328882864954
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328882864036
+http\://mirrors.ibiblio.org/.lastUpdated=1328882865240

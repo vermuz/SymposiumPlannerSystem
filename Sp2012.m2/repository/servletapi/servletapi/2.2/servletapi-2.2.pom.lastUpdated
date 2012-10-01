@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:17:01 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883417786
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883421463
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact servletapi\:servletapi\:pom\:2.2 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/servletapi/servletapi/2.2/servletapi-2.2.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883418333
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883418214
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883417676
+http\://mirrors.ibiblio.org/.lastUpdated=1328883418457

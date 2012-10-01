@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 24 09:36:00 ADT 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883560916
+http\://www.mvnsearch.org/maven2/.lastUpdated=1335270877112
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.springframework\:spring-context\:jar\:3.0.3.RELEASE from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/springframework/spring-context/3.0.3.RELEASE/spring-context-3.0.3.RELEASE.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883616415
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586303
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1335270960899
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520265
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625246

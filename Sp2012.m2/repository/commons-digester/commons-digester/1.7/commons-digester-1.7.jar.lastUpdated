@@ -1,0 +1,13 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 24 09:34:37 ADT 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883562234
+http\://www.mvnsearch.org/maven2/.lastUpdated=1335270877899
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact commons-digester\:commons-digester\:jar\:1.7 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/commons-digester/commons-digester/1.7/commons-digester-1.7.jar. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883617326
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883586422
+http\://repository.codehaus.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883520415
+http\://mirrors.ibiblio.org/.lastUpdated=1328883625327

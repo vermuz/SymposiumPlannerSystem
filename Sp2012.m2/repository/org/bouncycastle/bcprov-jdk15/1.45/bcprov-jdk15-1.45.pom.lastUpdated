@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:13:49 AST 2012
+http\://www.mvnsearch.org/maven2/.error=
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883227673
+http\://www.mvnsearch.org/maven2/.lastUpdated=1328883229166
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.bouncycastle\:bcprov-jdk15\:pom\:1.45 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.pom. Error code 403, Forbidden
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+http\://mirrors.ibiblio.org/.error=
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
+http\://repository.codehaus.org/.lastUpdated=1328883228231
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883228114
+http\://repository.codehaus.org/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1328883229623
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883227559
+http\://mirrors.ibiblio.org/.lastUpdated=1328883228355

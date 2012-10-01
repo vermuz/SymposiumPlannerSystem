@@ -1,0 +1,9 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Feb 10 10:10:21 AST 2012
+http\://dist.codehaus.org/mule/dependencies/maven2/.lastUpdated=1328883020629
+http\://dist.codehaus.org/mule/dependencies/maven2/.error=
+default-http\://repository.jboss.com/maven2/.lastUpdated=1328883021265
+http\://repository.codehaus.org/.lastUpdated=1328883021654
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.lastUpdated=1328883020509
+http\://repository.jboss.com/maven2/.error=Could not transfer artifact org.mule.modules\:mule-modules\:pom\:3.1.2 from/to dist_jboss (http\://repository.jboss.com/maven2)\: Access denied to http\://repository.jboss.com/maven2/org/mule/modules/mule-modules/3.1.2/mule-modules-3.1.2.pom. Error code 403, Forbidden
+file\://C\:\\SymposiumPlanner2012\\workspace\\symposiumplannersystem/repository/.error=
